@@ -186,6 +186,10 @@
     height: 310px;
 
 }
+.card-content{
+    display: flex;
+    align-items: flex-start;
+}
 .card-finance__title{
     margin: 45px 0px 13px 26px;
     font-family: Suprema;
@@ -204,18 +208,22 @@
     background: linear-gradient(180deg, #197BBD 0%, #3391D0 100%);
     border-radius: 26px;
 }
+.card-finance__icon--circles{
+    position: absolute;
+    width: 155px;
+    margin: 26px 133px;
+    height: 152px;
+}
 .arrow-card__icon--left{
     position: absolute;
     width: 9px;
     height: 19px;
-    margin-top: -90px;
-    margin-left: -270px;
 }
 
 /* text card */
 .card-inside__title{
     position: absolute;
-    margin: 15px 0 0 -234px;
+    margin: 10px 56px;
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
@@ -225,11 +233,69 @@
 }
 .card-inside__subtitle{
     position: absolute;
-    margin: 35px 0 0 -234px;
+    margin: 30px 56px;
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
     font-size: 8.11292px;
     line-height: 10px;
     color: rgba(10, 9, 9, 0.39);
+}
+.number-card__list{
+    display: flex;
+    position: absolute;
+    margin: 70px;
+    margin: 70px 52px
+}
+.number-card__items{
+    margin: 0px 5px 0px 5px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.card-items__first{
+    margin-left: 0px;
+}
+.card__info{
+    position: absolute;
+    margin: 115px 58px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7.17776px;
+    line-height: 9px;
+    color: #FFFFFF;
+}
+.card-info__name{
+    position: absolute;
+    margin: 130px 58px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.6167px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.card-info__expire{
+    position: absolute;
+    padding: 115px 142px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7.17776px;
+    line-height: 9px;
+    color: #FFFFFF;
+}
+.card-info__date{
+    position: absolute;
+    padding: 128px 142px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.6167px;
+    line-height: 15px;
+    color: #FFFFFF;
 }
